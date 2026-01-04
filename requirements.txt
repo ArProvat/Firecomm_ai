@@ -8,5 +8,6 @@ langchain-mongodb
 pymongo
 python-multipart
 openai
+chromadb
 IPython
 pydub 

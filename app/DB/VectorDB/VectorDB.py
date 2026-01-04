@@ -14,7 +14,11 @@ class VectorStore:
         )
         
         self.collection = self.client.get_or_create_collection(
-            name="health_products",
+            name="Firecomm knowledge base",
             embedding_function=None,
             metadata={"hnsw:space": "cosine"}
         )
+
+        
+
+        
